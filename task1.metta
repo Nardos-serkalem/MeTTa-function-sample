@@ -23,7 +23,7 @@
     (recur (rest $ children))
 })
 (_append_guard_set $ root false)
-!(return (tuple none $ dominant_set))
+(return (tuple none $ dominant_set))
 
 
 
